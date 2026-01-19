@@ -118,34 +118,6 @@ Training tips:
 
 ---
 
-## Project structure (overview)
-A simple layout you might see:
-```
-/
-├─ models/                 # detector & siamese model checkpoints
-├─ data/                   # sample PDFs, annotated images
-├─ scripts/                # helper scripts for training / inference
-├─ detect_signatures.py    # runs detector on PDFs
-├─ verify_signature.py     # runs siamese verification on image pairs
-├─ requirements.txt
-└─ README.md
-```
-
----
-
-## Contributing
-Contributions, bug reports, and feature requests are welcome. A good starting point:
-- Open an issue to discuss features or bugs.
-- Fork, create a branch, and submit a PR with clear description and tests where applicable.
-- If adding models, include training config and evaluation scripts to reproduce results.
-
----
-
-## License & Contact
-This project is open for modification — add a LICENSE file for your preferred license (MIT/Apache/GPL).  
-For questions or collaboration: open an issue or reach out via GitHub ([@kaifulimaan](https://github.com/kaifulimaan)).
-
----
 
 Thank you for checking out the project — let me know if you'd like:
 - A shorter/simpler README variant
